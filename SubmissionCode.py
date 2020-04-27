@@ -7,7 +7,6 @@
 import numpy as np
 from sklearn.model_selection import train_test_split 
 from sklearn.svm import SVC
-from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
 import warnings
 a=np.genfromtxt('train_X.csv',delimiter=',')
